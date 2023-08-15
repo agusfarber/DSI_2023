@@ -1,0 +1,15 @@
+Requerimientos funcionales:
+ * El sistema debe permitir a los guías turísticos realizar la inscripción proporcionando sus datos personales.
+ * Los guías deben poder iniciar sesión en el sitio web para registrar nuevos servicios turísticos.
+ * Los usuarios deben poder buscar servicios turísticos por tipo de servicio y ubicación.
+ * Los usuarios registrados deben poder reservar servicios turísticos.
+ * El sistema debe calcular el importe de la seña (50%) y permitir al cliente pagarla mediante tarjeta de crédito.
+ * El sistema debe permitir al cliente abonar el saldo restante en varios pagos, pero asegurarse de que esté totalmente pagado antes de la fecha del servicio.
+ * Debe generar un listado que agrupe por tipo de servicio y la cantidad de personas que tomarán cada servicio.
+ * El sistema debe cambiar el estado de la reserva a "realizada" después de finalizar la actividad.
+
+Requerimientos no funcionales:
+ * El sistema debe garantizar la privacidad y confidencialidad de los datos personales de los guías y usuarios.
+ * El sitio web debe ser fácil de usar y navegar tanto para guías como para usuarios.
+ * El sistema debe estar disponible y accesible en todo momento para los usuarios que deseen consultar o reservar servicios turísticos.
+ * El sitio web debe ser rápido y eficiente en la gestión de transacciones y consultas.
