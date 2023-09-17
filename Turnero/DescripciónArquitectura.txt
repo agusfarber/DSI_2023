@@ -1,0 +1,15 @@
+La arquitectura que se implementará para este caso es la Arquitectura de Microservicios.
+
+Esta arquitectura se puede adaptar muy bien a nuestro sistema, ya que permitirá divirlo en un 
+conjunto de servicios pequeños e independientes que se ejecutan de manera separada. 
+Cada uno de éstos realizará una función específica y se comunicará con los otros a través de una API.
+
+Implementación:
+ * Microservicio para sacar un turno: Se encargará de gestionar los nuevos turnos de los pacientes,
+guardar los datos de cada uno junto con los datos del turno y asignar el lugar en la fila.
+
+ * Microservicio de fila con estado del paciente: Se encargará de mostrar el orden de los pacientes que
+se encuentran en la fila, junto con su estado.
+
+ * Microservicio de asignación de prioridades: Se encargará de gestionar el orden de atención en base a
+las condiciones de cada paciente (puede ser un paciente con prioridad o no) y al orden de llegada.
