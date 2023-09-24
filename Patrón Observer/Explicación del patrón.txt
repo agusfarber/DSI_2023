@@ -1,0 +1,29 @@
+OBSERVER
+
+  El patrón de diseño Observer es un patrón de diseño de comportamiento que permite definir
+un mecanismo de suscripción para notificar a varios objetos sobre cualquier evento que
+le suceda al objeto que están observando. De modo que cuando éste cambia de estado,
+todos sus observadores son notificados y actualizados automáticamente.
+
+  Éste patrón se utiliza comúnmente en aplicaciones donde se requiere la propagación de cambios
+en un objeto a múltiples objetos interesados sin acoplarlos de manera fuerte.
+
+	Consta de los siguientes componentes:
+  * Sujeto (Subject): También conocido como Observable, es el objeto que es observado 
+    y que mantiene una lista de sus observadores.
+  * Observador (Observer): Representa a los objetos que desean ser notificados cuando 
+    cambia el estado del Sujeto. Los Observadores implementan una interfaz común que les 
+    permite recibir las notificaciones.
+  * Notificación (Notification): Cuando el estado del Sujeto cambia, envía notificaciones 
+    a todos sus Observadores, informándoles sobre el cambio.
+
+  Este patrón permite que los objetos se mantengan desacoplados, ya que el Sujeto no necesita conocer 
+a los Observadores específicos y viceversa. Los Observadores se registran con el Sujeto y pueden ser 
+desregistrados en cualquier momento. Cuando el Sujeto cambia su estado, notifica a todos los Observadores 
+registrados, lo que les permite tomar medidas en consecuencia.
+
+	Un ejemplo práctico de uso del patrón Observer podría ser en una aplicación de clima en la que múltiples 
+componentes de la interfaz de usuario deben actualizarse automáticamente cuando cambia la temperatura. 
+En este caso, el Sujeto sería el objeto que recopila datos de temperatura, y los Observadores serían 
+los diferentes componentes de la interfaz de usuario que muestran la temperatura en diversos formatos 
+(grados Celsius, Fahrenheit, etc.).
