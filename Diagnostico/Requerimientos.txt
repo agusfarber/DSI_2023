@@ -9,7 +9,14 @@ Requerimientos funcionales:
  * El sistema debe cambiar el estado de la reserva a "realizada" después de finalizar la actividad.
 
 Requerimientos no funcionales:
- * El sistema debe garantizar la privacidad y confidencialidad de los datos personales de los guías y usuarios.
- * El sitio web debe ser fácil de usar y navegar tanto para guías como para usuarios.
+ * El sistema debe asegurar la privacidad y confidencialidad de los datos personales de los guías y usuarios, 
+   cumpliendo con las disposiciones establecidas en la Ley Nacional de Protección de Datos Personales en Argentina 
+   (Ley 25.326). Se deben implementar medidas de seguridad y protocolos adecuados para garantizar el manejo seguro 
+   y la protección de la información personal almacenada y procesada por el sistema.
+ * El sitio web debe ser fácil de usar y navegar tanto para guías como para usuarios. La facilidad de uso se evaluará 
+   mediante métricas como la intuitividad de la interfaz de usuario, la claridad de la estructura de navegación, 
+   el tiempo necesario para realizar tareas comunes, y la capacidad de los usuarios para completar sus objetivos 
+   sin dificultad. Se aplicarán pruebas de usabilidad y se recopilarán retroalimentaciones de los usuarios para 
+   asegurar una experiencia fluida y satisfactoria.
  * El sistema debe estar disponible y accesible en todo momento para los usuarios que deseen consultar o reservar servicios turísticos.
- * El sitio web debe ser rápido y eficiente en la gestión de transacciones y consultas.
+ * El sistema debe interactuar correctamente con la Web Service de AFIP para la validación de CUIT.
